@@ -46,6 +46,7 @@
 ### Computer Architecture Layer
  ## Key takeaways 
  * Abstraction - To take a relatively complex system and simplify it for our use.
+ * Under the hood - The underlying implementation of a technology 
  * Computer has four main layers
    1. Hardware - Physical components of the computer 
    2. Operating System - Allows hardware to communicate with the system 
@@ -53,5 +54,60 @@
    4. Users - User interacts with the computer
 
   * Practice Assignment - Computer Architecture
-  * 
+  * Grade : 100%
+
+## Glossary terms from course 1, module 1
+
+** * Practice Assignment - How to count in Binary 
+   * 
+
+
+## Module 2: Hardware 
+** * The Modern Computer 
+# Key Takeaways 
+ * Ports - connection points that we can connect devices to that extend the functionality            of our computer
+ * 
+ * CPU (Central Processing Unit ) - The brain of our computer, it does all the calculations and data processing.
+ * 
+ * RAM (Random Access Memory ) - Our computer’s short term memory.
+
+ * Hard drive holds all of our memory, which includes all of our music,pictures, applications
+
+ * Motherboard - The body or circulatory system of the computer that connects all the pieces together.
+
+ * Power supply - Which converts electricity from the wall outlet onto a format that our computer can use.
+
+ * Programs - instructions that tell the computer what to do.
+
+ * External Data Bus (EDB) - A row of wires that interconnect the parts of our computer.
+
+ * Clock speed - The maximum number of clock cycles that it can handle in a certain time period.
+
+ * Inside the CPU there are components known as registers they let us store the data that our CPU works with.
+
+ * Memory Controller Chip (MCC) - The MCC is a bridge between the CPU and the RAM
+
+ * Cache - Cache is used to store recently or frequently accessed data.
+
+ * There are 3 levels of Cache:
+ * 1. L1 - is the smallest and fastest cache
+   2. L2 - holds less data than L3 cache but has faster access speeds 
+   3. L3 - is the largest and slowest of CPU cache, however it is twice as fast as RAM
+
+  * Clock wire - A dedicated electrical connection that carries a timing signal - pulsating voltage between high and low states-to synchronize actions across digital circuits, CPU
+
+  * Over clocking - the act that of making a computer part, like CPU or GPU, run at higher speed than the maker intended.
+
+  * Overclocking a CPU involves three variables:
+  * 1. The base CPU clock frequency, often measured in  GHz.
+    2. The core frequency, is calculated by multiplying the base frequency by the CPU            core multipliers.
+    3. The core voltage, which needs to be increased in small increments to meet the             increasing power demand of the CPU during the over clocking process.
+
+    * Warnings on overclocking - Overclocking the CPU can damage the computer if not configured properly.Operating a CPU at a higher speed can overheat the CPU and surrounding hardware,which can cause the computer system to fail.Additionally,overclocking the CPU can shorten the overall lifespan of the computer and void the computer’s warranty. It is better to avoid overclocking the CPU and instead purchase the appropriate CPU speed necessary to meet computing demands.
+   
+    * How to overclocking a CPU safely
+    * 1. Check if overclocking is supported
+      2. Clean the inside of the computer
+      3. Ensure an appropriate CPU cooler is installed (critical)
+      4. Follow the manufacturer’s instructions for overclocking the CPU
     
