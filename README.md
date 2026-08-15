@@ -80,8 +80,7 @@
  * Programs - instructions that tell the computer what to do.
 
  * External Data Bus (EDB) - A row of wires that interconnect the parts of our computer.
-
- * Clock speed - The maximum number of clock cycles that it can handle in a certain time period.
+   
 
  * Inside the CPU there are components known as registers they let us store the data that our CPU works with.
 
@@ -95,6 +94,10 @@
    3. L3 - is the largest and slowest of CPU cache, however it is twice as fast as RAM
 
   * Clock wire - A dedicated electrical connection that carries a timing signal - pulsating voltage between high and low states-to synchronize actions across digital circuits, CPU
+
+  * Clock cycle - when voltage is sent to the CPU. When there’s a lot of data to process in a command it needs to run a lot of clock cycles.
+
+  * Clock speed - The maximum number of clock cycles that the CPU can handle in a certain time period. Eg: 3.40 gigahertz is 3.4 billion cycles per second.
 
   * Over clocking - the act that of making a computer part, like CPU or GPU, run at higher speed than the maker intended.
 
