@@ -113,4 +113,21 @@
       2. Clean the inside of the computer
       3. Ensure an appropriate CPU cooler is installed (critical)
       4. Follow the manufacturer’s instructions for overclocking the CPU
+
+  * Practice Assignment: The Modern Computer
+  * Grade 100%
+
+** * COMPONENTS 
+   * CPU
+   * 1. Instruction Set - The complete list of all basic commands and operations that a computer’s central processing unit understands and executes. Every single program on our computer while extremely complex is broken down into very small and simple instructions found in the instruction set. Instruction sets are hardcoded into the CPU.
+    
+     2. When you select your CPU,you’ll need to make sure it’s compatible with your motherboard-the circuit board that connects all your components together.
+    
+     3. Depending on the motherboard, you’ll need to make sure these CPU fits correctly in the socket. There are two major types of cpu socket; Land Grid Array (LGA), Pin Grid Array (PGA).
+    
+     4. LGA - An LGA socket has pins coming out of the motherboard.
+    
+     5. PGA - A PGA socket has pins coming out of the processor itself.
+    
+     6. Heat Sink - when cpu is installed it is prone to overheating when doing a lot of work so a heat sink is should be installed too, because it takes the heat from our cpu and dissipates it through a fan or another medium.
     
