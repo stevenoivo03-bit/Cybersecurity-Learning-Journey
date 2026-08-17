@@ -131,3 +131,48 @@
     
      6. Heat Sink - when cpu is installed it is prone to overheating when doing a lot of work so a heat sink is should be installed too, because it takes the heat from our cpu and dissipates it through a fan or another medium.
     
+     7. RAM - RAM is used to store data that we want to access quickly, this data changes all the time so it isn’t permanent. Almost all RAM is volatile meaning once the computer is powered off all data stored in RAM is cleared. Computer is compromised of programs. To run a program, a copy of it is made in RAM so the CPU can process it.
+    
+     8. There are lots of types of RAM, and the one that’s commonly found in computers is DRAM, or dynamic random-access memory. There are also different types of memory sticks that DRAM chips can be put on. The more modern DIMM sticks,which usually stands for “Dual Inline Memory Modules”,have different sizes of pins on them.
+    
+     9. SDRAM - SDRAM (synchronous D RAM) was built after DRAM. This type of RAM is synchronized to our systems clock speed allowing quicker processing of data
+    
+     10. In today’s system,we use another type of RAM,called “double data rate SDRAM” or “DDR SDRAM” for short. The versions are DDR1,DDR2,DDR3 and the latest version DDR4, which is the fastest type short term memory currently available for computers.
+    
+     11. The motherboard, the foundation that holds the computer together.It lets us expand the computer’s functionality by adding expansion cards, it routes power from the power supply, and it allows different parts of the computer to communicate with each other. In short it’s a total boss. Every motherboard has a few key characteristics;
+         a. Chipset - which decides how components talk to each other on our machine. The chipset on motherboard is made up of two chips one is called “Northbridge” it interconnects RAM and video cards and the other is the “Southbridge” which maintains input/output (IO) controllers.
+
+         b. The chipset is the key component of our motherboard that allows us to manage data between our CPU,RAM, and Peripherals.
+
+         c. Expansion slots - Give us the ability to increase the functionality of our computer. If you want to update your graphics card you can purchase one and install it on your motherboard through the expansion slot.
+
+         d. Form Factor - Determines the amount we can put in and the amount of space we’ll have. The most common form factor for motherboards is ATX ( Advanced Technology Extended)
+    
+     13. Hard Drive - The main hardware component in a computer that stores all your data permanently. There are two basic hard drive types used today, Hard Disk Drive or HDD uses a spinning platter and a mechanical arm to read and write information, the speed that the platter rotates allows you to read and write data faster which is commonly referred to as RMP or revolution per minute. The higher the RPM the faster it is. HDD are prone to a lot more damage because of its moving parts. This susceptibility to damage went a way with a new type of storage called “Solid State Drive “ or SSD. SSD have no moving parts and operates the same way as USB sticks, the information is stored on microchips and data travels a lot faster than HDDs. Both have pros and cons, HDDs are more affordable but more prone to damage. SSDs are less risky when it comes to losing data, but they’re also more expensive.
+         - There few interfaces that hard drives use to connect to our system, ATA interfaces are the most common ones. The most popular ATA drive is a Serial ATA or SATA
+         - SATA - interface which uses one cable for data transfers and are Hot swappable.
+         - Hot swappable - You don’t have to turn off machine to plug in a SATA drive.
+    
+     14. Power Supplies - It converts the AC power we get from the wall into low voltage DC power that we can use and transmit throughout our computer.As general rule be sure to use the proper voltage for your electronics.We refer to the amount of electricity coming out as current or amperage and its measured in amps . We can think of amps as pulling electricity as opposed to voltage which pushes electricity. Amps will pull as much electricity needed, but voltage will give you everything.
+         - Wattage - The amount of volts and amps that a device needs
+         - When selecting a power supply for a computer, the following items should be taken into consideration:
+         - Wall socket input voltage standard for the country where the computer will be used;
+         - The number and power consumption needs of the computer’s internal components;
+         - The motherboard model and form factor engineering specifications and requirements.
+    
+     15. Mobile devices - type of computer that are mobile, they’re portable and usually powered by batteries. Mobile devices are usually very integrated, the smaller the device the more integrated the components usually are. Very small mobile devices use a system on a chip or SOC
+         - System on a Chip (SoC) - Packs the CPU, RAM, and sometimes even the storage onto a single chip. SoC uses less power than those components use separately.
+         - One super important thing mobile devices can contain a lot of personal data. Some organizations allow people to use their own personal devices for work. It’s called “Bring your own device “ or BOYD.
+    
+     16. Batteries and Charging Systems - Rechargeable batteries have a limited lifespan, which is measured in charge cycles. Charge cycle is one full charge and discharge of a battery. When a battery is approaching the end of its lifespan it may take longer to charge and hold less charge as when it was new.
+    
+     17. Peripherals and ports - MB is megabyte or unit of data storage, while Mb/s is a megabit per second, which is a unit of data transfer rate. Remember that 1byte is 8 bits, so to transfer a 1MB file in a second, you need an 8 Mb/s connection speed.
+         - IT professionals need to be familiar with cables and connectors used to attach peripheral devices to computers.
+         - USB connectors are the most common connector type and they transfer data and power to devices connected to a computer.
+         - Communication connectors such as RJ-45 and fiber optic cables connect devices to the internet and one another.
+         - IT professionals may encounter legacy devices that use older connectors such as DB9 and Molex
+         - Punch down blocks are terminal strips used to connect telephone or data lines.
+    
+     18. 
+    
+    
