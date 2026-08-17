@@ -173,6 +173,30 @@
          - IT professionals may encounter legacy devices that use older connectors such as DB9 and Molex
          - Punch down blocks are terminal strips used to connect telephone or data lines.
     
-     18. 
+         ** * Starting It Up
+
+         1. BIOS (Basic Input Output Services)- Software that helps initialize the hardware and gets our operating system up and running. Motherboard stores the BIOS in a special type of memory called the Read Only Memory chip or ROM chip. Unlike RAM, ROM is non-volatile meaning it won’t erase the data when the computer is off.
+            - Unified extensible firmware interface (UEFI) - Performs the same function of starting your computer as the traditional BIOS, but it’s more modern and has better compatibility and support for newer hardware.
+            
+            - Power on self-test or POST - when a computer is powered on it runs a test to make sure all the hardware is working correctly. The bios runs it when  you boot up your computer. The POST figures out what hardware is on the computer, It happens before the BIOS initializes any hardware or loads up essential drivers.
+           
+            - CMOS Chip - It stores basic data about booting your computer,like the date,time and how you want to start it up. These settings can be changed by booting into CMOS or BIOS settings menu.
+           
+            - Disk image - Copy of an operating system.
+           
+            - Reimagining - Wiping and reinstalling an operating system. This procedure is typically performed using a program that stored on some external device, like a USB memory stick or a CD ROM,or even a server accessible to the network. To access this programs and perform the re-image,you’ll need to use the bios to tell the computer to boot up from that external device.
+
+        2. Mobile Display Types - The two main technologies used in mobile displays are Liquid Crystal Digital (LCD) and Organic Light Emitting Diodes (OLED). Each technology has its own benefits and drawbacks when used in mobile displays,among other consumer goods.
+           * Common LCDs include:
+             - In-Plane Switching (IPS) displays
+             - Twisted Nematic (TN) displays
+             - VA-Vertical Alignment displays
+
+           * Common and upcoming OLED displays include:
+             - Active Matrix Organic Light Emitting Diode (AMOLED) displays
+             - Inorganic mini-LEDs (mLEDS) displays
+             - Inorganic micro-LEDS () displays 
+        
+         
     
     
