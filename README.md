@@ -197,6 +197,67 @@
              - Inorganic mini-LEDs (mLEDS) displays
              - Inorganic micro-LEDS () displays 
         
-         
-    
+
+
+
+  ## Module 3: Operating System
+  
+ # Key Takeaways 
+
+ ** * Operating System is the whole package that manages our computer’s resources and lets us interact with it.
+
+ **  * Two main Components of an Operating System 
+     1. User Space - Applications 
+     2. Kernel Space - Process Manager, Memory Manager, File Manager, I/O Manager
+
+
+   * The Kernel is the main core of an operating system, it talks directly to our hardware and manages our system’s resources.
+   * User Space - users interact with the User Space. The User Space is basically made up of everything outside the kernel. These are things that we interact with directly like System programs, User Interfaces, etc
+   * Major OS used in IT are Windows, Mac, and Linux.
+
+   * The Kernel does file storage and file management and process  management which makes multitasking possible. Our Kernel optimizes memory usage and makes sure our applications have enough memory to run. The last important function is input output management or I/O management, this is how our kernel talks to external devices like disks,keyboards,networks, connections, audio devices and more.
+
+   * I/O management - anything that can give us input, or that we can use for output of data.
+
+   * The User Space is everything outside the kernel. These are the things that we interact with directly, like programs such as text editors, music players, system settings, user interfaces, etcetera.
+
+   * Files and File Systems: The Kernel handles file storage and file systems on our machine. There are three main components to handling files on an OS;
+     1. The file Data
+     2. Metadata
+     3. File System
+        - Windows major file system is NTFS it was introduced in the previous version of Windows OS Windows NT, and it includes many features like encryption, faster access speeds, security and more.
+        - Microsoft is developing another file system called ReFS, but not ready for consumer use yet.
+        - Linux have different file systems types for different distributions. A standard file system for Linux is ext4 which is compatible with older ext file systems
+        - In general different file system types don’t play nice with each other, you might not easily move files across different file systems depending on the file system type. A good guideline is just use the file system that your operating system recommends.
+        - Another important part of file management is the storage of actual file data. We write data to our hard drive in the form of data blocks. Block storage improves faster handling of data because the data isn’t stored as one long piece and can be accessed quicker.
+        - Lastly we need to keep the Metadata that contains the information about our file. The file metadata tells us everything we need to know about our file. It also tells us what type of file it is.
+        - File extensions - The appended part of a file that tells us what type of file it is in certain operating systems
+
+
+    * Process Management: One of the most important task the kernel does is Process Management.
+        - Process: A program that’s executing, like our internet browser or text editor.
+        
+        - Program: An application that we can run, like Chrome.
+        
+        - We can have processes of the same program running at the same time. But to run programs we have to dedicate computer resources like RAM, CPU. When a program wants to run a process needs to be created for it. This process needs to have hardware resources like RAM and CPU. The Kernel has to schedule time to execute the instructions in the process, but there’s only one CPU and many processes.
+        
+        - How does a CPU be able to execute many processes at once? It actually doesn’t, it executes processes one-by-one through something known as time slice.
+        - Time Slice: A very short interval of time that gets allocated to a process for CPU execution. The CPU executes one process in milliseconds, then executes another process than another. To the human eye everything looks like it’s running simultaneously. That’s how fast the CPU works.
+        - If computer is running slowly and the CPU resources are being maxed out,there can be many factors at play. It’s possible that one process is taking up more time slices than it should. This means that the next process can’t be executed. Another possibility is that there are too many processes that want CPU time and the CPU can’t keep up with them.
+        - Kernel creates processes, efficiently schedules them, and manages how processes are terminated.
+
+
+        * Memory Management and Virtual Memory: 
+        - When a process runs it also needs to take up memory so that the computer can read and locate them quickly. However compared to our hard disk drives memory comes in smaller quantities, so to give us more memory than we physically have we use something called virtual memory.
+        
+        - Virtual memory: The combination of hard drive space and RAM that acts like memory that our processes can use. 
+        
+        - When we execute a process we take the data of the program in chunks we call pages, we store these pages in virtual memory, if we want to read and execute this pages they have to be sent to physical memory or RAM. When we store our virtual memory on the hard drive we call the allocated space swap space.
+
+
+        * Input Output (I/O) management: 
+
+        - I/O devices are all managed by the kernel, it loads device drivers to recognize and interact with different hardware components 
+     
+ 
     
