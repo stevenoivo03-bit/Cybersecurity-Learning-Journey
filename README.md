@@ -241,7 +241,7 @@
         
         - We can have processes of the same program running at the same time. But to run programs we have to dedicate computer resources like RAM, CPU. When a program wants to run a process needs to be created for it. This process needs to have hardware resources like RAM and CPU. The Kernel has to schedule time to execute the instructions in the process, but there’s only one CPU and many processes.
         
-        - How does a CPU be able to execute many processes at once? It actually doesn’t, it executes processes one-by-one through something known as time slice.
+        - How does a CPU execute many processes at once? It actually doesn’t, it executes processes one-by-one through something known as time slice.
         - Time Slice: A very short interval of time that gets allocated to a process for CPU execution. The CPU executes one process in milliseconds, then executes another process than another. To the human eye everything looks like it’s running simultaneously. That’s how fast the CPU works.
         - If computer is running slowly and the CPU resources are being maxed out,there can be many factors at play. It’s possible that one process is taking up more time slices than it should. This means that the next process can’t be executed. Another possibility is that there are too many processes that want CPU time and the CPU can’t keep up with them.
         - Kernel creates processes, efficiently schedules them, and manages how processes are terminated.
